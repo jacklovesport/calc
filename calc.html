@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+ <h1>The Maths Box</h1>
+
+<div id="calculator">Calculator
+    <div id ="display"> </div>
+    <button onclick="addToDisplay('1')">1</button>
+    <button onclick="addToDisplay('2')">2</button>
+    <button onclick="addToDisplay('3')">3</button>
+    <button onclick="addToDisplay('4')">4</button>
+    <button onclick="addToDisplay('5')">5</button>
+    <button onclick="addToDisplay('6')">6</button>
+    <button onclick="addToDisplay('7')">7</button>
+    <button onclick="addToDisplay('8')">8</button>
+    <button onclick="addToDisplay('9')">9</button>
+    <button onclick="addToDisplay('0')">0</button>
+
+    <button id ="add" onclick="addOperator('+')">+</button>
+    <button id ="subtract"onclick="addOperator('-')">-</button>
+    <button id ="multiply"onclick="addOperator('*')">X</button>
+    <button id ="divide"onclick="addOperator('/')">/</button>
+    <button id ="equals"onclick="calculate()('=')">=</button>
+    <button id ="clear"onclick="clearDisplay()('+')">clear</button>
+</div>
+    <script src="calc.js"></script>
+</body>
+</html>
